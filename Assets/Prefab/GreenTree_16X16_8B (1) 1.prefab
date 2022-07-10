@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7708098379944357263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027485684773835610}
+  - component: {fileID: 8916079273436641457}
+  - component: {fileID: -1572168112688509983}
+  - component: {fileID: 7624484541586170902}
+  - component: {fileID: -7001902065960187490}
+  - component: {fileID: 3924771362718985228}
+  - component: {fileID: 1185197603046009024}
+  - component: {fileID: -5800345506588339293}
+  - component: {fileID: 2268790328037964363}
+  m_Layer: 0
+  m_Name: GreenTree_16X16_8B (1) 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1027485684773835610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8916079273436641457
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 652d89eb3b0d297478df7b972e43dacc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &-1572168112688509983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a6bc02f462f87469398a2aa30d88ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7624484541586170902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bc636ef8a16254d8f98fec9b1b34b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7001902065960187490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c51759fba4d3ee40a55186a3b9aeb0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: TREE
+  Description: GREEN TREE
+  catrgory: 0
+  directionVector: {x: 0, y: 0, z: 0}
+  isVisable: 0
+  region: 
+  isMoving: 0
+  intData: 
+  stringData: []
+--- !u!114 &3924771362718985228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be58ec4579793164ba07e073d283f7cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: 
+  actionStringValues: []
+  actionFloatValues: []
+  actionIntValues: 
+  actionBoolValues: 
+  debugText: 
+--- !u!61 &1185197603046009024
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &-5800345506588339293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f485d08fb0012654ab5100e063358420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: 
+  damageLimit: 10000
+  TotalDamageRecieved: 0
+  destroyOnDeath: 1
+  collectOnDeath: 0
+  dropItemOnDeath: 1
+  ItemDropedOnDeath: {fileID: 2113255461221645816, guid: 88085892a46e09144aae558079ca67d6, type: 3}
+  qtyDropedOnDeath: 1
+  damageReceived: 0
+  bestItemObject: {fileID: 6469007007453198741, guid: 7c5b61ed2e4e9a84299369df401ed5f4, type: 3}
+  bestItemMultiplier: 10
+  onlyBestItem: 0
+  otherItemsDropedOnDeath:
+  - itemPrefab: {fileID: 617496343789401935, guid: 8f165bab4ecec2945bed5484cf963cb7, type: 3}
+    noOfItemsDroped: 1
+    chanceOfDrop: 0.2
+    messageOnDrop: 
+  ReqiredStatus: []
+  AquiredStatus: []
+  playerStatusScript: {fileID: 0}
+--- !u!114 &2268790328037964363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708098379944357263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f35026a0bf4374fb63e67d2c4cfd20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStatusScript: {fileID: 0}
+  actionNames:
+  - OperateOn
+  itemsToDrop:
+  - itemPrefab: {fileID: 850415684641488718, guid: 28a57190ebb36eb4bbe4ccb2deff03be, type: 3}
+    noOfItemsDroped: 1
+    chanceOfDrop: 0.05
+    messageOnDrop: YOU HAVE PICKED AN APPLE
+  - itemPrefab: {fileID: 6794160253272249199, guid: 962f1fcdc6e4f9644b64d19d5756039d, type: 3}
+    noOfItemsDroped: 1
+    chanceOfDrop: 0.5
+    messageOnDrop: YOU HAVE BROKEN OFF A BRANCH
+  ReqiredStatus: []
+  AquiredStatusOnAction:
+  - statusTitle: 1
+    statusValue: -20
+    statusValueOverwrite: 0
+  AquiredStatusWhenDroped: []
