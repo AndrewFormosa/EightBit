@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3463422285868950693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3463422285868950692}
+  - component: {fileID: 776481100165080264}
+  - component: {fileID: -2783351245422846123}
+  - component: {fileID: 1087609690695330999}
+  m_Layer: 0
+  m_Name: TestRegion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3463422285868950692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463422285868950693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776481100165080264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463422285868950693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9619d824ce816fd4a9fb95efec10a835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circularMultiplier: 2
+  defaultTerrain:
+    terrainName: OPEN SPACE
+    terainChanceIn1000: 0
+    defaultItem:
+      item: {fileID: 0}
+      intemChanceIn1000: 0
+      circular: 0
+    probableItems:
+    - item: {fileID: 7708098379944357263, guid: 879ba9bf877599243b4cc6c2e23f8457, type: 3}
+      intemChanceIn1000: 50
+      circular: 0
+    - item: {fileID: 5655003227508419119, guid: d5323f1274c90a841b197e0d80dff263, type: 3}
+      intemChanceIn1000: 1
+      circular: 0
+    - item: {fileID: 8785405196707745252, guid: 8b722eac45cb8de4eb28ca7b3eeca4b8, type: 3}
+      intemChanceIn1000: 1
+      circular: 0
+    - item: {fileID: 7034472319015279928, guid: 15896900f6fd26f4798b7dedeeff0af3, type: 3}
+      intemChanceIn1000: 10
+      circular: 0
+    - item: {fileID: 9175340671028168746, guid: bdb91fef2c934474e8ed95d54d7821ac, type: 3}
+      intemChanceIn1000: 20
+      circular: 0
+    - item: {fileID: 9175340671028168746, guid: 65f5ed2e1f6443b49a881a18d87a40bb, type: 3}
+      intemChanceIn1000: 20
+      circular: 0
+    borderItemMain: {fileID: 0}
+    borderItemSecond: {fileID: 0}
+    borderItemChanceOfSecond: 0
+  regionTerrains:
+  - terrainName: FORREST
+    terainChanceIn1000: 200
+    defaultItem:
+      item: {fileID: 0}
+      intemChanceIn1000: 0
+      circular: 0
+    probableItems:
+    - item: {fileID: 7708098379944357263, guid: 37d9494561ee26046b6bceb30fdf50b2, type: 3}
+      intemChanceIn1000: 400
+      circular: 1
+    - item: {fileID: 7583594022101803435, guid: f0c0f63aa4cc14548a6d4be0a0c3b213, type: 3}
+      intemChanceIn1000: 1
+      circular: 0
+    - item: {fileID: 5655003227508419119, guid: d5323f1274c90a841b197e0d80dff263, type: 3}
+      intemChanceIn1000: 10
+      circular: 0
+    borderItemMain: {fileID: 0}
+    borderItemSecond: {fileID: 0}
+    borderItemChanceOfSecond: 0
+  - terrainName: LAKES
+    terainChanceIn1000: 20
+    defaultItem:
+      item: {fileID: 0}
+      intemChanceIn1000: 0
+      circular: 0
+    probableItems:
+    - item: {fileID: 5655003227508419119, guid: d5323f1274c90a841b197e0d80dff263, type: 3}
+      intemChanceIn1000: 800
+      circular: 1
+    - item: {fileID: 7583594022101803435, guid: f0c0f63aa4cc14548a6d4be0a0c3b213, type: 3}
+      intemChanceIn1000: 1
+      circular: 0
+    borderItemMain: {fileID: 0}
+    borderItemSecond: {fileID: 0}
+    borderItemChanceOfSecond: 0
+  - terrainName: RUINS
+    terainChanceIn1000: 1
+    defaultItem:
+      item: {fileID: 0}
+      intemChanceIn1000: 0
+      circular: 0
+    probableItems:
+    - item: {fileID: 9056302695885157599, guid: 10c5b366493e740498cae1a1a5dae368, type: 3}
+      intemChanceIn1000: 300
+      circular: 0
+    - item: {fileID: 7583594022101803435, guid: f0c0f63aa4cc14548a6d4be0a0c3b213, type: 3}
+      intemChanceIn1000: 2
+      circular: 0
+    - item: {fileID: 3183924591541689297, guid: 66a189c050180aa47be6787cd5f09fb4, type: 3}
+      intemChanceIn1000: 10
+      circular: 0
+    borderItemMain: {fileID: 9056302695885157599, guid: 10c5b366493e740498cae1a1a5dae368, type: 3}
+    borderItemSecond: {fileID: 8288580761588324293, guid: c65b61b58cec62e42b3fbad0d16b5a7a, type: 3}
+    borderItemChanceOfSecond: 0.1
+  regionKey: 
+  regionVector: {x: 0, y: 0, z: 0}
+  regionHeight: 0
+  regionWidth: 0
+  maze1Regions:
+  - {x: 3, y: 3, z: 0}
+  - {x: -6, y: -6, z: 0}
+  maze2Regions:
+  - {x: -3, y: -3, z: 0}
+  - {x: 6, y: 6, z: 0}
+  objects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 9056302695885157599, guid: 10c5b366493e740498cae1a1a5dae368, type: 3}
+  - {fileID: 5655003227508419119, guid: d5323f1274c90a841b197e0d80dff263, type: 3}
+  - {fileID: 7583594022101803435, guid: f0c0f63aa4cc14548a6d4be0a0c3b213, type: 3}
+  - {fileID: 8089185659190976883, guid: c1ff8014112b0ff4e82f9f34ca92fa15, type: 3}
+  - {fileID: 8785405196707745252, guid: 8b722eac45cb8de4eb28ca7b3eeca4b8, type: 3}
+  - {fileID: 7708098379944357263, guid: 37d9494561ee26046b6bceb30fdf50b2, type: 3}
+  noOfObjects: 0
+  terrain: 0
+  chosenTerrain:
+    terrainName: 
+    terainChanceIn1000: 0
+    defaultItem:
+      item: {fileID: 0}
+      intemChanceIn1000: 0
+      circular: 0
+    probableItems: []
+    borderItemMain: {fileID: 0}
+    borderItemSecond: {fileID: 0}
+    borderItemChanceOfSecond: 0
+  dataManager: {fileID: 0}
+--- !u!114 &-2783351245422846123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463422285868950693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcb522061629584c905cd6fab020f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mazeWallPrefab: {fileID: 9056302695885157599, guid: 10c5b366493e740498cae1a1a5dae368, type: 3}
+  mazeDoorPrefab: {fileID: 8288580761588324293, guid: c65b61b58cec62e42b3fbad0d16b5a7a, type: 3}
+  mazeObjects:
+  - {fileID: 9056302695885157599, guid: 10c5b366493e740498cae1a1a5dae368, type: 3}
+  - {fileID: 8288580761588324293, guid: c65b61b58cec62e42b3fbad0d16b5a7a, type: 3}
+  - {fileID: 0}
+  - {fileID: 3183924591541689297, guid: 66a189c050180aa47be6787cd5f09fb4, type: 3}
+--- !u!114 &1087609690695330999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463422285868950693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc5233ac2f3e7f428f66f84bb558923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mazeWallPrefab: {fileID: 0}
+  mazeDoorPrefab: {fileID: 0}
+  mazeObjects:
+  - {fileID: 9056302695885157599, guid: 10c5b366493e740498cae1a1a5dae368, type: 3}
+  - {fileID: 8288580761588324293, guid: c65b61b58cec62e42b3fbad0d16b5a7a, type: 3}
+  - {fileID: 0}
+  - {fileID: 3183924591541689297, guid: 66a189c050180aa47be6787cd5f09fb4, type: 3}
+  enemyQty: 4
